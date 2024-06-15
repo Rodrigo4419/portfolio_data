@@ -1,0 +1,193 @@
+[
+    [
+      {
+        "delito": "Violencia Familiar",
+        "categoria": "DELITO DE BAJO IMPACTO",
+        "cantidad": "23,076",
+        "alcaldia": "Iztapalapa",
+        "alcaldia_total": "4,175",
+        "img": "/img/violence.svg"
+      },
+      {
+        "delito": "Fraude",
+        "categoria": "DELITO DE BAJO IMPACTO",
+        "cantidad": "14,070",
+        "alcaldia": "Cuauhtemoc",
+        "alcaldia_total": "2,544",
+        "img": "/img/fraud.svg"
+      },
+      {
+        "delito": "Amenazas",
+        "categoria": "DELITO DE BAJO IMPACTO",
+        "cantidad": "12,006",
+        "alcaldia": "Iztapalapa",
+        "alcaldia_total": "1,999",
+        "img": "/img/extortion.svg"
+      },
+      {
+        "delito": "Robo De Objetos",
+        "categoria": "DELITO DE BAJO IMPACTO",
+        "cantidad": "6,595",
+        "alcaldia": "Cuauhtemoc",
+        "alcaldia_total": "1,106",
+        "img": "/img/theft.svg"
+      },
+      {
+        "delito": "Robo De Accesorios De Auto",
+        "categoria": "DELITO DE BAJO IMPACTO",
+        "cantidad": "6,428",
+        "alcaldia": "Cuauhtemoc",
+        "alcaldia_total": "1,688",
+        "img": "/img/car.svg"
+      }
+    ],
+    {
+      "type": "pie",
+      "keys": {
+        "dataKey": "value",
+        "nameKey": "town_hall"
+      },
+      "slice": [
+        {
+          "key": "town_hall",
+          "fill": "#8884d8"
+        }
+      ],
+      "data": [
+        {
+          "town_hall": "Iztapalapa",
+          "value": 113,
+          "color": "#7b809a"
+        },
+        {
+          "town_hall": "Gustavo A. Madero",
+          "value": 71,
+          "color": "#e91e63"
+        },
+        {
+          "town_hall": "Cuauhtemoc",
+          "value": 52,
+          "color": "#426ff7"
+        },
+        {
+          "town_hall": "Tlalpan",
+          "value": 36,
+          "color": "#3C4858"
+        }
+      ]
+    },
+    {
+      "type": "line",
+      "keys": {
+        "XAxis": "date"
+      },
+      "lines": [
+        {
+          "dataKey": "value",
+          "stroke": "#e91e63",
+          "type": "monotone",
+          "width": 3
+        }
+      ],
+      "data": [
+        {
+          "date": "2022-03",
+          "value": "32.36"
+        },
+        {
+          "date": "2022-06",
+          "value": "36.12"
+        },
+        {
+          "date": "2022-09",
+          "value": "39.21"
+        },
+        {
+          "date": "2022-12",
+          "value": "39.98"
+        },
+        {
+          "date": "2023-03",
+          "value": "42.60"
+        },
+        {
+          "date": "2023-06",
+          "value": "40.20"
+        },
+        {
+          "date": "2023-09",
+          "value": "42.31"
+        },
+        {
+          "date": "2023-12",
+          "value": "44.03"
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "keys": {
+        "XAxis": "town_hall"
+      },
+      "bar": {
+        "dataKey": "Reported",
+        "fill": "#3C4858",
+        "afterFill": "#8B97A8",
+        "afterStroke": "#F0F0F0"
+      },
+      "data": [
+        {
+          "town_hall": "Iztapalapa",
+          "Reported": 20021
+        },
+        {
+          "town_hall": "Cuauhtemoc",
+          "Reported": 19993
+        },
+        {
+          "town_hall": "Gustavo A. Madero",
+          "Reported": 14158
+        },
+        {
+          "town_hall": "Benito Juarez",
+          "Reported": 10375
+        },
+        {
+          "town_hall": "Coyoacan",
+          "Reported": 9959
+        }
+      ]
+    },
+    [
+      {
+        "town_hall": "Milpa Alta",
+        "total": "116",
+        "population": "152,685",
+        "ext": "228.4"
+      },
+      {
+        "town_hall": "Cuajimalpa De Morelos",
+        "total": "159",
+        "population": "186,391",
+        "ext": "80.95"
+      },
+      {
+        "town_hall": "La Magdalena Contreras",
+        "total": "287",
+        "population": "239,086",
+        "ext": "74.58"
+      },
+      {
+        "town_hall": "Xochimilco",
+        "total": "540",
+        "population": "415,007",
+        "ext": "122"
+      },
+      {
+        "town_hall": "Tlahuac",
+        "total": "644",
+        "population": "392,313",
+        "ext": "85.34"
+      }
+    ]
+  ]
